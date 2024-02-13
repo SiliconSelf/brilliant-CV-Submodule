@@ -456,16 +456,16 @@
 }
 
 #let cvFooter() = {
-  place(
-    bottom,
-    table(
-      columns: (1fr, auto),
-      inset: 0pt,
-      stroke: none,
-      footerStyle([#firstName #lastName]),
-      footerStyle(languageSwitch(cvFooterInternational)),
-    )
-  )
+  // place(
+  //   bottom,
+  //   table(
+  //     columns: (1fr, auto),
+  //     inset: 0pt,
+  //     stroke: none,
+  //     footerStyle([#firstName #lastName]),
+  //     footerStyle(languageSwitch(cvFooterInternational)),
+  //   )
+  // )
 }
 
 #let letterHeader(
