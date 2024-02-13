@@ -309,7 +309,7 @@
     row-gutter: 6mm,
     [#headerFirstNameStyle(firstName) #h(5pt) #headerLastNameStyle(lastName)],
     [#headerInfoStyle(makeHeaderInfo())],
-    [#headerQuoteStyle(languageSwitch(headerQuoteInternational))]
+    // [#headerQuoteStyle(languageSwitch(headerQuoteInternational))]
   )
 
 
@@ -317,7 +317,7 @@
     if profilePhoto != "" {
       image(profilePhoto, height: 3.6cm)
     } else {
-      v(3.6cm)
+      // v(3.6cm)
     }
   } 
 
